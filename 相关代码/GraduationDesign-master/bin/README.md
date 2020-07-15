@@ -1,0 +1,20 @@
+- PdSampling.exe
+  - 泊松碟采样，使用了 vcglib
+  - 来源自 3PU 的开源代码，经过少许魔改
+- show_models.exe
+  - 使用 polyscope 来显示模型
+  - 魔改程度较大
+- ConvertPcd2Ply.exe
+  - 把点云从pcd格式转到Ply
+  - 使用PCL库，静态编译出exe，PCL原始库太几把大了
+- pcp.exe
+  - 曾准备做成一把瑞士军刀，后来放弃了
+  - 目前支持：
+    - 点云绘制
+    - mesh绘制
+    - 归一化
+    - 对点云做基本的几何变换【平移/旋转/缩放】
+    - 计算法线
+- npts_2_ply.exe
+  - 把npts格式的点云转为 ply 格式的点云
+
