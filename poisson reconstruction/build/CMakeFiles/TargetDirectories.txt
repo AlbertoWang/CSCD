@@ -1,0 +1,3 @@
+/Users/alberto/CodingSpace/VSCode-workspace/test/build/CMakeFiles/rebuild_cache.dir
+/Users/alberto/CodingSpace/VSCode-workspace/test/build/CMakeFiles/edit_cache.dir
+/Users/alberto/CodingSpace/VSCode-workspace/test/build/CMakeFiles/pcd_write_test.dir
