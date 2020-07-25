@@ -91,5 +91,5 @@ def show_points_and_skeleton(point_file, skeleton_file):
 # show_points_in_obj_file('/Users/alberto/学习/点云处理/创作论文/mesh重建/实验数据/14/14-points.obj')
 # show_skeleton_in_obj_file('/Users/alberto/学习/点云处理/创作论文/mesh重建/实验数据/14/14-skel-gt.obj')
 # show_mesh_in_ply_file('/Users/alberto/学习/点云处理/创作论文/mesh重建/实验数据/14/14-mesh.ply')
-show_mesh_in_ply_file('/Users/alberto/学习/点云处理/创作论文/mesh重建/实验数据/14/14-gt.ply')
+show_mesh_in_ply_file('/Users/alberto/PaperSpace/CSCD/实验数据/1/1-gp3.ply')
 # show_points_and_skeleton('/Users/alberto/学习/点云处理/创作论文/mesh重建/实验数据/14/14-points.obj','/Users/alberto/学习/点云处理/创作论文/mesh重建/实验数据/14/14-skel-gt.obj')

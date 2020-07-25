@@ -1,3 +1,4 @@
+import sys
 # .ntps to .obj
 def ntps2obj(ntps_file, obj_file):
     with open(ntps_file) as f_in:
@@ -6,4 +7,7 @@ def ntps2obj(ntps_file, obj_file):
             xyz_list = line.split(' ')
             f_out.write('v '+line)
 
-ntps2obj('/Users/alberto/PaperSpace/CSCD/实验数据/GraduationDesign/Data/art_scan_1.npts', '/Users/alberto/PaperSpace/CSCD/实验数据/1/1-points.obj')
+if len(sys.argv) < 3:
+    print("npts to obj:\nformat_scripts xxx.npts xxx.obj")
+    exit
+ntps2obj(sys.argv[1], sys.argv[2])
