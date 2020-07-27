@@ -1,2 +1,17 @@
+### macOS ###
 .DS_Store
 **/.DS_Store
+
+### PolyScope ###
+imgui.ini
+**/imgui.ini
+.polyscope.ini
+**/.polyscope.ini
+
+### CMake ###
+build/
+**/build/
+
+### VS Code ###
+.vscode/
+**/.vscode/

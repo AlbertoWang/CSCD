@@ -1,0 +1,25 @@
+# Note, sharp symbol is for commenting rules
+# First line, the type of structure to be rendered
+# - Graph
+# - PointCloud
+# - Mesh
+PointCloud
+#
+# Second line, the file path of the point cloud/mesh/graph name
+# Also note that, the file format is strictly limited:
+# - npts for point cloud, three float number for each line
+# - obj for graph, 
+# - ply for mesh, 
+./pointcloud/tree1.npts
+#
+# Third line[+], the rendering directives, end with "========"
+# color: 255, 255, 0
+# size: 1.3
+# rotate-x:
+# rotate-y:
+# rotate-z:
+========
+# More models info can be appended here
+Mesh
+./surface.ply
+size: 2.4
